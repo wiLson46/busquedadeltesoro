@@ -31,14 +31,14 @@
 
     <div class="mt-5 m-2">
         <label for="exampleFormControlInput1" class="form-label text-uppercase">Ingresar el codigo</label>
-        <input type="email" class="form-control text-uppercase" id="exampleFormControlInput1"
+        <input id="inputPista05" type="number" class="form-control text-uppercase" id="exampleFormControlInput1"
             placeholder="Aca va el codigo encontrado">
-        <button type="button" class="btn btn-warning btn-lg text-uppercase mt-5">Avanzar a la proxima pista</button>
+        <button id="botonPista05" type="button" class="btn btn-warning btn-lg text-uppercase mt-5">Avanzar a la proxima pista</button>
     </div>
 
     <script>
-        document.getElementById('botonPista01').addEventListener('click', function() {
-            var inputValue = document.getElementById('inputPista01').value;
+        document.getElementById('botonPista05').addEventListener('click', function() {
+            var inputValue = document.getElementById('inputPista05').value;
             if (inputValue === '9461') {
                 window.location.href = 'pista06.html';
             } else {
