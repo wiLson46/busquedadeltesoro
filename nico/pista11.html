@@ -32,7 +32,7 @@
     </div>
 
     <div class="mt-5 m-2">
-        <label for="exampleFormControlInput1" class="form-label text-uppercase">Ingresar el codigo</label>
+        <label for="exampleFormControlInput1" class="form-label text-uppercase">Ingresar el codigo (8 numeros)</label>
         <input id="inputPista11" type="number" class="form-control text-uppercase" id="exampleFormControlInput1"
             placeholder="Aca va el codigo encontrado">
         <button id="botonPista11" type="button" class="btn btn-warning btn-lg text-uppercase mt-5">Avanzar a la proxima pista</button>
@@ -41,7 +41,7 @@
     <script>
         document.getElementById('botonPista11').addEventListener('click', function() {
             var inputValue = document.getElementById('inputPista11').value;
-            if (inputValue === '3412') {
+            if (inputValue === '34127269') {
                 window.location.href = 'pista12.html';
             } else {
                 alert('El codigo es incorrecto, estas seguro que es ese?');

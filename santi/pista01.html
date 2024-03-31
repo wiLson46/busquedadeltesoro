@@ -22,10 +22,10 @@
 
     <div class="container text-uppercase">
         <p class="mt-5 fs-2">
-            En un lugar donde la comida se sirve con gran sabor,
-            Descansa <span class="fw-bold">un mueble cómodo</span>, ¡no hay mejor!
-            Cerca de la pantalla que muestra aventuras sin fin,
-            Aquí encontrarás tu siguiente camino, ¡sí, aquí está el fin!
+            Donde el fuego baila con chisporroteo y ardor,
+            Encontrarás una pista, ¡es tu turno de buscar con fervor!
+            Entre las brasas y el humo que danzan en esplendor,
+            Descubrirás el camino hacia el tesoro con honor.
         </p>
     </div>
 
@@ -33,13 +33,14 @@
         <label for="exampleFormControlInput1" class="form-label text-uppercase">Ingresar el codigo</label>
         <input id="inputPista01" type="number" class="form-control text-uppercase" id="exampleFormControlInput1"
             placeholder="Aca va el codigo encontrado">
-        <button id="botonPista01" type="button" class="btn btn-primary btn-lg text-uppercase mt-5">Avanzar a la proxima pista</button>
+        <button id="botonPista01" type="button" class="btn btn-primary btn-lg text-uppercase mt-5">Avanzar a la proxima
+            pista</button>
     </div>
 
     <script>
-        document.getElementById('botonPista01').addEventListener('click', function() {
+        document.getElementById('botonPista01').addEventListener('click', function () {
             var inputValue = document.getElementById('inputPista01').value;
-            if (inputValue === '7843') {
+            if (inputValue === '7284') {
                 window.location.href = 'pista02.html';
             } else {
                 alert('El codigo es incorrecto, estas seguro que es ese?');

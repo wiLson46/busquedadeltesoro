@@ -22,10 +22,10 @@
 
     <div class="container text-uppercase">
         <p class="mt-5 fs-2">
-            En la habitación de blancura sin igual,
-            Descansa una pista en su lecho real.
-            Entre sábanas suaves y almohadas de algodón,
-            Encuentra tu próxima pista, ¡es tu misión!
+            En el lavadero, entre baldes y detergentes,
+            Una bicicleta espera pacientemente,
+            Con sus ruedas listas para rodar,
+            La pista que buscas podrás encontrar.
         </p>
     </div>
 
@@ -33,13 +33,14 @@
         <label for="exampleFormControlInput1" class="form-label text-uppercase">Ingresar el codigo</label>
         <input id="inputPista09" type="number" class="form-control text-uppercase" id="exampleFormControlInput1"
             placeholder="Aca va el codigo encontrado">
-        <button id="botonPista09" type="button" class="btn btn-primary btn-lg text-uppercase mt-5">Avanzar a la proxima pista</button>
+        <button id="botonPista09" type="button" class="btn btn-primary btn-lg text-uppercase mt-5">Avanzar a la proxima
+            pista</button>
     </div>
 
     <script>
-        document.getElementById('botonPista09').addEventListener('click', function() {
+        document.getElementById('botonPista09').addEventListener('click', function () {
             var inputValue = document.getElementById('inputPista09').value;
-            if (inputValue === '4025') {
+            if (inputValue === '5902') {
                 window.location.href = 'pista10.html';
             } else {
                 alert('El codigo es incorrecto, estas seguro que es ese?');
